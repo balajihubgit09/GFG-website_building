@@ -133,5 +133,4 @@ The guide explains:
 
 ## Contributors
 
-* **Balaji**
-* Team Member
+* **TEAM BULDERS**
