@@ -129,6 +129,28 @@
     </section>
 
     <section class="admin-layout-grid admin-layout-grid-single" data-animate="fade-up">
+        <section class="glass-section glass-card admin-section-card admin-form-card">
+            <div class="section-head admin-section-head">
+                <div>
+                    <p class="eyebrow">Add Resource</p>
+                    <h2 class="gradient-title">Grow the learning hub</h2>
+                </div>
+                <p class="section-copy">Add a learning resource with category, summary, difficulty, and destination link.</p>
+            </div>
+            <form class="form-grid modern-form admin-resource-form" method="post">
+                <input type="hidden" name="action" value="add_resource">
+                <label class="field"><input name="title" type="text" placeholder=" " required><span>Title</span></label>
+                <label class="field"><input name="category" type="text" placeholder=" " required><span>Category</span></label>
+                <label class="field"><input name="difficulty" type="text" placeholder=" "><span>Difficulty</span></label>
+                <label class="field"><input name="duration" type="text" placeholder=" "><span>Duration</span></label>
+                <label class="field full-span"><textarea name="summary" rows="4" placeholder=" " required></textarea><span>Summary</span></label>
+                <label class="field full-span"><input name="url" type="url" placeholder=" " required><span>Resource URL</span></label>
+                <button class="button button-primary glow-button full-span" type="submit" data-loading-text="Adding resource...">Add Resource</button>
+            </form>
+        </section>
+    </section>
+
+    <section class="admin-layout-grid admin-layout-grid-single" data-animate="fade-up">
         <section class="glass-section glass-card admin-section-card">
             <div class="section-head admin-section-head">
                 <div>
