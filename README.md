@@ -1,4 +1,4 @@
-# GfG Campus Club Website Challenge Portal
+# GfG Campus Club Website Challenge
 
 A full-stack web platform built for the **GeeksforGeeks Campus Club – Rajalakshmi Institute of Technology Website Building Challenge 2026**.
 
